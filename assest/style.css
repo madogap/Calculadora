@@ -1,0 +1,32 @@
+body {
+    font-size: 25px;
+
+}
+
+input {
+    border: solid 2px #ac5050;
+    display: flex;
+    justify-content: flex-start;
+    font: 15pt arial;
+    width: 150px;
+    margin: 10px;
+}
+
+div {
+    border: solid 2px #ac5050;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    background-color: rgb(212, 193, 193);
+    flex-direction: column;
+}
+
+.num1 {
+    border: solid 2px #ac5050;
+    display: flex;
+    justify-content: flex-start;
+    font: 15pt arial;
+    width: 150px;
+    margin: 10px;
+
+}
