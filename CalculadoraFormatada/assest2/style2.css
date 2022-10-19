@@ -35,13 +35,14 @@
 .btn:houver {
     background-color: black;
 }
-#resultado{
+
+#resultado {
     background-color: white;
     width: 207px;
-    height:30px;
-    margin: 5px ;
-    font-size:25px ;
-     color: black;
-     text-align: right;
-     padding: 5px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
 }

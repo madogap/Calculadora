@@ -7,7 +7,7 @@ function somar() {
     let s = n1 + n2;
     res.innerHTML = `A soma entre ${n1} e ${n2} é igual a ${s}`;
 };
-function diminuir(){
+function diminuir() {
     let tn1 = window.document.getElementById('txtn1');
     let tn2 = window.document.querySelector('input#txtn2');
     let res = window.document.getElementById('res');
@@ -17,7 +17,7 @@ function diminuir(){
     res.innerHTML = `A soma entre ${n1} e ${n2} é igual a: ${s}`;
 };
 
-function multiplicar(){
+function multiplicar() {
     let tn1 = window.document.getElementById('txtn1');
     let tn2 = window.document.querySelector('input#txtn2');
     let res = window.document.getElementById('res');
@@ -27,7 +27,7 @@ function multiplicar(){
     res.innerHTML = `A multiplicação entre ${n1} e ${n2} é igual a: ${s}`;
 };
 
-function dividir(){
+function dividir() {
     let tn1 = window.document.getElementById('txtn1');
     let tn2 = window.document.querySelector('input#txtn2');
     let res = window.document.getElementById('res');
@@ -37,7 +37,7 @@ function dividir(){
     res.innerHTML = `A divisão entre ${n1} e ${n2} é igual a: ${s}`;
 }
 
-function  ozero(){
+function ozero() {
     let tn1 = window.document.getElementById('txtn1');
     let tn2 = window.document.querySelector('input#txtn2');
     let res = window.document.getElementById('res');
@@ -48,7 +48,7 @@ function  ozero(){
 
 }
 
-function expoente(){
+function expoente() {
     let tn1 = window.document.getElementById('txtn1');
     let tn2 = window.document.querySelector('input#txtn2');
     let res = window.document.getElementById('res');

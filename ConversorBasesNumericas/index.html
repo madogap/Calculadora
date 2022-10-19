@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!--REFERÊNCIAS DOS COMENTÁRIOS https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decimal/Binário</title>
+    <link rel="stylesheet" href="assestdecimal/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="inputContainer">
+            <!--O Evento "CHANGE" é disparado para os elementos <input>, <select>e <textarea> quando o usuário modifica o valor do elemento. Ao contrário do inputevento, o changeevento não é necessariamente disparado para cada alteração no value -->
+            <input type="text" onchange="converter(this.value)" placeholder="Digite um número">
+        </div>
+        <div class="outputContainer">
+            <h1 id="res">Resultado</h1>
+        </div>
+    </div>
+    <script src="assestdecimal/index.js"></script>
+</body>
+
+</html>
