@@ -1,7 +1,7 @@
 function insert(num) {
     var numero = document.getElementById('resultado').innerHTML;
     document.getElementById('resultado').innerHTML = numero + num;
-
+    console.log(numero);
 }
 function clean() {
     document.getElementById('resultado').innerHTML = "";
@@ -9,7 +9,9 @@ function clean() {
 function back() {
     var resultado = document.getElementById('resultado').innerHTML;
     document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length - 1)
+    
 }
+console.log(back());
 function calcular() {
     var resultado = document.getElementById('resultado').innerHTML;
     if (resultado) {
@@ -17,5 +19,7 @@ function calcular() {
     } else {
         document.getElementById('resultado').innerHTML = "";
     }
+    console.log(resultado);
 }
+console.log(calcular(2));
 
