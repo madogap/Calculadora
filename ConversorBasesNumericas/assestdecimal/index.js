@@ -1,4 +1,6 @@
-/*Recebe um string de dados atráves do evento CHANGE, converte para number pela função parseInt(), logo em seguida a to.String(2) faz o retorno de' bináro, onde a variável bin tornou-se uma String novamento finalizando com o 'res ' em Objeto*/
+/*Recebe um string de dados atráves do evento CHANGE, converte para
+number pela função parseInt(), logo em seguida a to.String(2) faz o retorno de' 
+bináro, onde a variável bin tornou-se uma String novamento finalizando com o 'res ' em Objeto*/
 
 function converter(num) {
     console.log(num);
@@ -21,4 +23,17 @@ function converter(num) {
     console.log(num); // INPUT VALUE
     console.log(typeof num); // TIPO STRING
 }
+/*
 
+//Binario para um inteiro porem decimal?
+function convertToRadix(str) {
+    return parseInt(str, 2) // Converter binario em number
+    //return parseInt(str, 16) // Converter Hexa em number
+
+}
+
+var a = convertToRadix("1001001"); //Atribuir numero binario
+// var a =convertToInteger("0XF"); //Atribuir numero binario
+console.log(typeof a);
+
+module.exports = convertToRadix;*/
