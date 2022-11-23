@@ -1,3 +1,4 @@
+//Function Maior que
 function testGreaterThan(val) {
     if (val > 100) {  // Change this line
         return "Over 100";
@@ -9,7 +10,9 @@ function testGreaterThan(val) {
 
     return "10 or Under";
 }
-testGreaterThan(10);
+console.log(testGreaterThan(10));
+
+//Maior ou igual
 function testGreaterOrEqual(val) {
     if (val >= 20) {  // Change this line
         return "20 or Over";
@@ -21,7 +24,8 @@ function testGreaterOrEqual(val) {
 
     return "Less than 10";
 }
-testGreaterOrEqual(10);
+console.log(testGreaterOrEqual(10));
+//Menor que
 function testLessThan(val) {
     if (val < 25) {  // Change this line
         return "Under 25";
@@ -33,7 +37,8 @@ function testLessThan(val) {
 
     return "55 or Over";
 }
-testLessThan(10);
+console.log(testLessThan(10));
+//Menor ou igual
 function testLessOrEqual(val) {
     if (val <= 12) {  // Change this line
         return "Smaller Than or Equal to 12";
@@ -45,20 +50,20 @@ function testLessOrEqual(val) {
 
     return "More Than 24";
 }
-testLessOrEqual(10);
+console.log(testLessOrEqual(10));
+
 function testLogicalAnd(val) {
     // Only change code below this line
 
     if (val <= 50 && val >= 25) {
-
         return "Yes";
-
     }
 
     // Only change code above this line
     return "No";
 }
-testLogicalAnd(10);
+console.log(testLogicalAnd(10));
+
 function testElse(val) {
     let result = "";
     // Only change code below this line
@@ -72,7 +77,8 @@ function testElse(val) {
 
     return result;
 }
-testElse(4);
+console.log(testElse(4));
+//
 function testElseIf(val) {
     if (val > 10) {
         return "Greater than 10";
@@ -83,10 +89,9 @@ function testElseIf(val) {
 
         return "Between 5 and 10";
     }
-
-
 }
 console.log(testElseIf(99));
+//
 function orderMyLogic(val) {
     if (val < 5) {
         return "Less than 5";
@@ -96,22 +101,22 @@ function orderMyLogic(val) {
         return "Greater than or equal to 10";
     }
 }
-console.log(orderMyLogic(7));
+console.log(orderMyLogic(99));
 function testSize(num) {
 
     if (num < 5) {
         return "Tiny"
     } else if (num < 10) {
         return "Small"
-    } else if (num<15){
+    } else if (num < 15) {
         return "Medium"
-    } else if(num<20){
+    } else if (num < 20) {
         return "Large"
-    } else if(num>=20){
-        return "Huhge"
+    } else if (num >= 20) {
+        return "Grande"
     }
 
     return "Change Me";
 }
-console.log(testSize(1));
-   
+console.log(testSize(99));
+
