@@ -1,11 +1,16 @@
+//
 const x = function multiplicar(a, b) { return a * b };
+ch
 var z = x(4, 1);
+console.log(z);
 
+//Rest parametros
 function somar(a, b, ...args) {
 
     return Number(a) + Number(b) + Number(args);
 }
 console.log(somar(4, 1, 2, 3));
+
 function sub(a, b) {
     return parseFloat(a) - parseFloat(b);
 }
