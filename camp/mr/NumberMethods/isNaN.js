@@ -10,3 +10,4 @@ console.log(falso0);//false pois 1 e numero
 console.log(falso1);//false
 console.log(verdade);//true isso nao e numero
 console.log("----------------------------");
+
