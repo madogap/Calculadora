@@ -11,3 +11,10 @@ console.log(falso1);//false
 console.log(verdade);//true isso nao e numero
 console.log("----------------------------");
 
+let x = 100 // "Apple";
+isNaN(x);
+
+console.log(typeof x);//number
+
+let a = 0xAA;
+console.log(a);
