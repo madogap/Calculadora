@@ -1,16 +1,11 @@
-//
-const x = function multiplicar(a, b) { return a * b };
-ch
-var z = x(4, 1);
+const x = function multiplicar(a, b) { 
+    return a * b 
+};
+var z = x(4, 2);
 console.log(z);
 
-//Rest parametros
-function somar(a, b, ...args) {
 
-    return Number(a) + Number(b) + Number(args);
-}
-console.log(somar(4, 1, 2, 3));
-
+/*
 function sub(a, b) {
     return parseFloat(a) - parseFloat(b);
 }
@@ -82,3 +77,4 @@ function restoZero(resto, ...theArgs) {
 }
 var res = restoZero(4, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 console.log(res);
+*/

@@ -18,3 +18,6 @@ console.log(typeof x);//number
 
 let a = 0xAA;
 console.log(a);
+
+let b = 0xFF;
+console.log(b);
